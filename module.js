@@ -99,6 +99,7 @@ module.exports = function(settings, final_callback) {
 		    "ids": GOOGLEAPI_ANALYTICS_TABLE,
 		    "start-date": settings.startDate,
 		    "end-date": settings.endDate,
+		    "start-index": settings.startIndex,
 		    "metrics": settings.metrics,
 			"filters": settings.filter,
 			'dimensions': settings.dimensions,
